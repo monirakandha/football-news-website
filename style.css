@@ -33,14 +33,14 @@ nav {
     justify-content: space-between;
     align-items: center;
 }
-ul {
+ul.head-menu {
     display: flex;
 }
-ul li {
+ul.head-menu li {
     list-style: none;
     margin: 13px;
 }
-ul li a {
+ul.head-menu li a {
     color: #fff;
     text-decoration: none;
 }
@@ -48,7 +48,7 @@ ul li a {
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding-top:50px;
-    
+
 }
 .banner-left {
     display: flex;
@@ -67,4 +67,79 @@ h1.banner-left-heading {
 }
 /* end of header area css  */
 
-/* hero area css  */
+/* player deatils area  */
+
+section.palyers {
+    padding-top: 80px;
+    padding-bottom: 150px;
+}
+
+.player-details {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    align-items: flex-start;
+    justify-content: start;
+    gap:30px;
+
+}
+.player-info {
+    background-color: #ffff;
+    box-shadow: 1px 18px 15px #80808063;
+    padding: 20px;
+    border-radius: 5px;
+    height: 500px;
+}
+.player-images img {
+    width: 100%;
+}
+
+/* heighlight section  */
+
+section.heighligt {
+    padding-bottom: 150px;
+}
+.highlight-are {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+}
+.highlight-details {
+    margin-right: 100px;
+}
+.higlight-img img {
+    width: 100%;
+}
+.highlight-details h4 {
+    font-size: 48px;
+    line-height: 60px;
+}
+
+/* footer area css */
+
+.logo img {
+    width: 30%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.social-are {
+    padding-top: 20px;
+}
+.social-are ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.social-are ul li {
+    list-style: none;
+    margin: -24px;
+}
+.social-are ul li img {
+    width: 40%;
+}
+
+.copyrirght-are p {
+    text-align: center;
+    padding-top: 20px;
+}
